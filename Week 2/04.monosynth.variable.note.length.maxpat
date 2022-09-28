@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 144.0, 1029.0, 671.0 ],
+		"rect" : [ 739.0, 100.0, 739.0, 796.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 353.0, 128.5, 150.0, 33.0 ],
+					"patching_rect" : [ 353.0, 128.5, 154.0, 33.0 ],
 					"text" : "cmd + click on any point to toggle sustain"
 				}
 
@@ -497,8 +497,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 237.0, 237.5, 70.0, 22.0 ],
-					"text" : "cycle~ 440."
+					"patching_rect" : [ 237.0, 237.5, 66.0, 22.0 ],
+					"text" : "cycle~ 440"
 				}
 
 			}
@@ -540,6 +540,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 1 ],
+					"midpoints" : [ 621.5, 261.0, 597.0, 261.0, 597.0, 243.0, 315.0, 243.0, 315.0, 231.0, 293.5, 231.0 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
@@ -562,6 +570,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
+					"midpoints" : [ 580.5, 351.0, 264.0, 351.0, 264.0, 312.0, 72.0, 312.0, 72.0, 81.0, 124.5, 81.0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -576,6 +585,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
+					"midpoints" : [ 649.5, 360.0, 519.0, 360.0, 519.0, 6.0, 124.5, 6.0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 

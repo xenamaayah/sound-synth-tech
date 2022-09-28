@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 489.0, 100.0, 640.0, 506.0 ],
+		"rect" : [ 838.0, 100.0, 640.0, 506.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 363.0, 309.0, 31.0, 22.0 ],
+					"text" : "float"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 41.0, 336.0, 31.0, 22.0 ],
+					"text" : "float"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-32",
 					"linecount" : 3,
@@ -99,19 +123,6 @@
 			}
 , 			{
 				"box" : 				{
-					"format" : 6,
-					"id" : "obj-20",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 363.0, 316.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -131,19 +142,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 363.0, 219.0, 74.0, 22.0 ],
 					"text" : "loadmess -3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-16",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 336.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -258,7 +256,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -272,7 +270,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 

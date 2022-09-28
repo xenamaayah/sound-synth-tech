@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 119.0, 1107.0, 635.0 ],
+		"rect" : [ 713.0, 100.0, 765.0, 796.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 722.0, 191.0, 150.0, 20.0 ],
+					"text" : "shift + click to delete point"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -57,8 +68,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 645.0, 105.0, 80.0, 22.0 ],
-					"text" : "seldomain $1"
+					"patching_rect" : [ 645.0, 105.0, 81.0, 22.0 ],
+					"text" : "setdomain $1"
 				}
 
 			}
@@ -178,17 +189,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 722.0, 146.0, 66.0, 20.0 ],
 					"text" : "<function>"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-34",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 856.0, 106.0, 100.0, 22.0 ]
 				}
 
 			}
