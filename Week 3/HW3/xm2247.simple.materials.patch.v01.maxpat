@@ -40,13 +40,120 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-37",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 13.0, 647.5, 166.0, 100.0 ],
+					"text" : "What Im trying to do here, is use the piano to just control what frequency is being played but it seems to reset each time I press on the piano. Could this be bacause of the phasor?"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 331.299999999999841, 741.0, 165.0, 33.0 ],
+					"text" : "I play the piano and playing with this is so cool!!!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 630.25, 426.98358678817749, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 630.0, 155.0, 139.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "bang" ],
+					"patching_rect" : [ 630.0, 112.5, 54.0, 22.0 ],
+					"text" : "line~ 0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 680.0, 271.0, 150.0, 20.0 ],
+					"text" : "<live.gain~ @channels 1>"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"channels" : 1,
+					"id" : "obj-18",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 623.0, 261.0, 48.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.gain~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"linecount" : 11,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 653.050000000000068, 650.0, 25.0, 154.0 ],
+					"text" : "|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-70",
 					"linecount" : 11,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 194.0, 647.5, 25.0, 154.0 ],
-					"presentation_linecount" : 11,
 					"text" : "|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|"
 				}
 
@@ -58,7 +165,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 227.0, 617.0, 258.299999999999841, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Controls for sending frequencies using Piano"
 				}
 
@@ -70,7 +176,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 221.0, 617.0, 407.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "___________________________________________________________"
 				}
 
@@ -301,14 +406,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-69",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 461.5, 39.0, 35.0 ],
-					"presentation_linecount" : 2,
-					"text" : "1 1 0.76"
+					"patching_rect" : [ 13.0, 461.5, 54.0, 22.0 ],
+					"text" : "1 1 0.22"
 				}
 
 			}
@@ -320,7 +423,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 417.299999999999841, 27.0, 68.0, 22.0 ],
+					"patching_rect" : [ 321.275000000000034, 42.0, 68.0, 22.0 ],
 					"text" : "r duty.cycle"
 				}
 
@@ -333,7 +436,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 488.050000000000068, 27.0, 82.0, 22.0 ],
+					"patching_rect" : [ 391.275000000000034, 42.0, 82.0, 22.0 ],
 					"text" : "receive~ sync"
 				}
 
@@ -346,7 +449,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 374.050000000000068, 27.0, 37.0, 22.0 ],
+					"patching_rect" : [ 264.275000000000034, 42.0, 37.0, 22.0 ],
 					"text" : "r freq"
 				}
 
@@ -359,7 +462,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 374.050000000000068, 84.0, 133.0, 22.0 ],
+					"patching_rect" : [ 264.275000000000034, 97.0, 146.0, 22.0 ],
 					"text" : "tri~ 440."
 				}
 
@@ -371,7 +474,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 412.050000000000068, 212.0, 161.0, 49.0 ]
+					"patching_rect" : [ 312.274999999999977, 221.0, 161.0, 49.0 ]
 				}
 
 			}
@@ -381,7 +484,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.333333333333258, 140.0, 161.0, 52.0 ]
+					"patching_rect" : [ 315.333333333333258, 140.0, 161.0, 52.0 ]
 				}
 
 			}
@@ -452,7 +555,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 369.5, 326.0, 68.0, 22.0 ],
+					"patching_rect" : [ 264.275000000000034, 326.0, 68.0, 22.0 ],
 					"text" : "send~ out2"
 				}
 
@@ -476,7 +579,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 40.5, 292.0, 677.0, 22.0 ],
+					"patching_rect" : [ 40.5, 292.0, 466.550000000000068, 22.0 ],
 					"text" : "matrix~ 3 2"
 				}
 
@@ -491,8 +594,45 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 1 ],
+					"source" : [ "obj-18", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"order" : 1,
+					"order" : 2,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 1 ],
+					"midpoints" : [ 49.0, 120.0, 249.0, 120.0, 249.0, 84.0, 760.0, 84.0 ],
+					"order" : 0,
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -500,7 +640,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -509,7 +649,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"midpoints" : [ 49.0, 284.5, 50.0, 284.5 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -584,7 +724,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"midpoints" : [ 42.5, 432.0, 20.0, 432.0, 20.0, 288.0, 50.0, 288.0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-54", 0 ]
 				}
 
@@ -592,7 +732,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-54", 0 ]
 				}
 
@@ -668,6 +808,20 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-18" : [ "live.gain~", "live.gain~", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
