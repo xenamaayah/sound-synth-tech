@@ -122,8 +122,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1047.0, 236.0, 96.0, 22.0 ],
-					"text" : "*~"
+					"patching_rect" : [ 1047.0, 236.0, 29.5, 22.0 ],
+					"text" : "+~"
 				}
 
 			}
@@ -616,7 +616,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 554.0, 657.0, 92.0, 89.0 ],
-					"presentation_linecount" : 6,
 					"text" : ";\rrm-amp 0.5;\rmodulator 400.;\rcarrier 500.;\rmod.depth 0.5;\r"
 				}
 
@@ -983,7 +982,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1054.0, 32.0, 160.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Frequency Modulation (FM)"
 				}
 
@@ -1045,6 +1043,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-109", 1 ],
+					"midpoints" : [ 1133.5, 226.0, 1067.0, 226.0 ],
 					"source" : [ "obj-107", 0 ]
 				}
 
