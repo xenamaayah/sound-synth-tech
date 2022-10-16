@@ -47,7 +47,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 136.0, 765.0, 50.0, 22.0 ]
+					"patching_rect" : [ 142.5, 761.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -58,7 +58,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 136.0, 725.0, 111.0, 22.0 ],
+					"patching_rect" : [ 142.5, 725.0, 111.0, 22.0 ],
 					"text" : "expr ($i1 - 128)*0.6"
 				}
 
@@ -551,7 +551,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ 148.5, 711.0, 271.5, 711.0 ],
+					"midpoints" : [ 148.5, 714.0, 271.5, 714.0 ],
 					"order" : 0,
 					"source" : [ "obj-27", 0 ]
 				}
@@ -600,7 +600,58 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "RB.vox.spoken.langston.hughes.wav",
+				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export",
+				"patcherrelativepath" : "../Media/RB_vo__export",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RB.vox.spoken.vowels.F#3-A#3.wav",
+				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export",
+				"patcherrelativepath" : "../Media/RB_vo__export",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RB.vox.sung.consonants.s.f.k.t.Db4.wav",
+				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export",
+				"patcherrelativepath" : "../Media/RB_vo__export",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RB.vox.sung.fare.you.well.Bb.minor.wav",
+				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export",
+				"patcherrelativepath" : "../Media/RB_vo__export",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RB.vox.sung.vocalizations.Db4-F4.wav",
+				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export",
+				"patcherrelativepath" : "../Media/RB_vo__export",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RB.vox.sung.vowels.Bb3.wav",
+				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export",
+				"patcherrelativepath" : "../Media/RB_vo__export",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RB.vox.whispered.langston.hughes.wav",
+				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export",
+				"patcherrelativepath" : "../Media/RB_vo__export",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
