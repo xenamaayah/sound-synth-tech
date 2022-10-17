@@ -58,7 +58,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 584.0, 193.0, 151.0, 102.0 ],
-					"presentation_linecount" : 6,
 					"text" : ";\rone-vowel 1 350 0 40;\rone-vowel 2 600 -20 80;\rone-vowel 3 2400 -32 100;\rone-vowel 4 2675 -28 120;\rone-vowel 5 2950 -36 120;\r"
 				}
 
