@@ -600,58 +600,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "RB.vox.spoken.langston.hughes.wav",
-				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export",
-				"patcherrelativepath" : "../Media/RB_vo__export",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "RB.vox.spoken.vowels.F#3-A#3.wav",
-				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export",
-				"patcherrelativepath" : "../Media/RB_vo__export",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "RB.vox.sung.consonants.s.f.k.t.Db4.wav",
-				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export",
-				"patcherrelativepath" : "../Media/RB_vo__export",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "RB.vox.sung.fare.you.well.Bb.minor.wav",
-				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export",
-				"patcherrelativepath" : "../Media/RB_vo__export",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "RB.vox.sung.vocalizations.Db4-F4.wav",
-				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export",
-				"patcherrelativepath" : "../Media/RB_vo__export",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "RB.vox.sung.vowels.Bb3.wav",
-				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export",
-				"patcherrelativepath" : "../Media/RB_vo__export",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "RB.vox.whispered.langston.hughes.wav",
-				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export",
-				"patcherrelativepath" : "../Media/RB_vo__export",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
