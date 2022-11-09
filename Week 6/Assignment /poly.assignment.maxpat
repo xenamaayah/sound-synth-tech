@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 62.0, 100.0, 1152.0, 794.0 ],
+		"rect" : [ 36.0, 100.0, 1442.0, 794.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 326.5, 484.5, 150.0, 33.0 ],
+					"text" : "random values for every col --> for rm "
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-27",
 					"maxclass" : "comment",
@@ -441,7 +453,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 127.5, 533.0, 49.5, 62.0 ],
-					"text" : "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
+					"text" : "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 				}
 
 			}
@@ -453,7 +465,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 415.5, 420.0, 50.0, 22.0 ],
-					"text" : "1 1800"
+					"text" : "3 1600"
 				}
 
 			}

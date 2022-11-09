@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 835.0, 795.0 ],
+		"rect" : [ 34.0, 100.0, 613.0, 795.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.5, 321.0, 150.0, 127.0 ],
+					"patching_rect" : [ 128.5, 321.0, 152.0, 127.0 ],
 					"text" : "probing over this line, I see no output whatsoever, even though my scaffold patch is out, the cycle objects are working (I'm trying to emulate ring modulation and copied over some of the basiscs from our RM dsp patch"
 				}
 
@@ -153,8 +153,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 42.33332633972168, 590.0, 108.0, 22.0 ],
-					"text" : "*~"
+					"patching_rect" : [ 42.33332633972168, 590.0, 29.5, 22.0 ],
+					"text" : "+~"
 				}
 
 			}
@@ -582,6 +582,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 42.33332633972168, 36.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -594,10 +598,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 221.999999165534973, 744.000004172325134, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 2"
 				}
 
@@ -610,10 +610,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 164.999999165534973, 744.000004172325134, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 1"
 				}
 
@@ -626,10 +622,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 42.33332633972168, 748.000004172325134, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
