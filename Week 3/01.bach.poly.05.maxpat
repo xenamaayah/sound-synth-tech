@@ -223,7 +223,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -483,7 +482,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 10.0, 404.0, 29.0 ],
-					"text" : "2.1 Monophonic Synthesizer"
+					"text" : "2.1 Polyphonic Synthesizer"
 				}
 
 			}

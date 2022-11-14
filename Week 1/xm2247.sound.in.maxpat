@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 753.0, 795.0 ],
+		"rect" : [ 34.0, 100.0, 753.0, 794.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,43 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"basictuning" : 440,
+					"clipheight" : 91.0,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "/Users/xena/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB.vox.spoken.langston.hughes.wav",
+								"filename" : "RB.vox.spoken.langston.hughes.wav",
+								"filekind" : "audiofile",
+								"id" : "u682008393",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-2",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 200.299999999999955, 223.0, 150.0, 92.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"format" : 6,
 					"id" : "obj-42",
@@ -252,109 +289,6 @@
 			}
 , 			{
 				"box" : 				{
-					"basictuning" : 0,
-					"clipheight" : 20.0,
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "/Users/xena/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export/RB.vox.spoken.langston.hughes.wav",
-								"filename" : "RB.vox.spoken.langston.hughes.wav",
-								"filekind" : "audiofile",
-								"id" : "u893008373",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/xena/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export/RB.vox.spoken.vowels.F#3-A#3.wav",
-								"filename" : "RB.vox.spoken.vowels.F#3-A#3.wav",
-								"filekind" : "audiofile",
-								"id" : "u246008367",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/xena/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export/RB.vox.sung.consonants.s.f.k.t.Db4.wav",
-								"filename" : "RB.vox.sung.consonants.s.f.k.t.Db4.wav",
-								"filekind" : "audiofile",
-								"id" : "u738008368",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/xena/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export/RB.vox.sung.fare.you.well.Bb.minor.wav",
-								"filename" : "RB.vox.sung.fare.you.well.Bb.minor.wav",
-								"filekind" : "audiofile",
-								"id" : "u570008369",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/xena/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export/RB.vox.sung.vocalizations.Db4-F4.wav",
-								"filename" : "RB.vox.sung.vocalizations.Db4-F4.wav",
-								"filekind" : "audiofile",
-								"id" : "u243008370",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/xena/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export/RB.vox.sung.vowels.Bb3.wav",
-								"filename" : "RB.vox.sung.vowels.Bb3.wav",
-								"filekind" : "audiofile",
-								"id" : "u141008371",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/xena/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Media/RB_vo__export/RB.vox.whispered.langston.hughes.wav",
-								"filename" : "RB.vox.whispered.langston.hughes.wav",
-								"filekind" : "audiofile",
-								"id" : "u574008372",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
- ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-17",
-					"maxclass" : "playlist~",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0 ],
-					"originaltempo" : 0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 184.0, 189.0, 233.0, 132.0 ],
-					"pitchcorrection" : 0,
-					"quality" : 0,
-					"timestretch" : [ 0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -450,8 +384,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 431.5, 180.0, 193.5, 180.0 ],
+					"destination" : [ "obj-2", 0 ],
 					"order" : 1,
 					"source" : [ "obj-14", 0 ]
 				}
@@ -463,14 +396,6 @@
 					"midpoints" : [ 431.5, 336.0, 431.5, 336.0 ],
 					"order" : 0,
 					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 2 ],
-					"midpoints" : [ 193.5, 462.0, 290.699999999999989, 462.0 ],
-					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -494,6 +419,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 2 ],
+					"midpoints" : [ 209.799999999999955, 318.0, 186.0, 318.0, 186.0, 462.0, 290.699999999999989, 462.0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}

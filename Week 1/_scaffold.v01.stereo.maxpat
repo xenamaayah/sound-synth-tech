@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 171.0, 163.0 ],
+		"rect" : [ 34.0, 100.0, 178.0, 159.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.905882352941176, 0.815686274509804, 0.23921568627451, 1.0 ],
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.0, 45.0, 107.0, 22.0 ],
+					"text" : "xm2247.midi.in"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 92.0, 107.0, 22.0 ],
+					"patching_rect" : [ 14.0, 109.0, 107.0, 22.0 ],
 					"text" : "xm2247.sound.out"
 				}
 
@@ -55,7 +67,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 43.0, 100.0, 22.0 ],
+					"patching_rect" : [ 14.0, 76.0, 107.0, 22.0 ],
 					"text" : "xm2247.sound.in"
 				}
 
@@ -63,6 +75,13 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
+				"name" : "xm2247.midi.in.maxpat",
+				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Week 1",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "xm2247.sound.in.maxpat",
 				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Week 1",
 				"patcherrelativepath" : ".",

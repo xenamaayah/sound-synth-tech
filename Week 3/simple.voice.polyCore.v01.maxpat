@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 525.0, 100.0, 953.0, 724.0 ],
+		"rect" : [ 929.0, 102.0, 676.0, 724.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 650.0, 501.0, 150.0, 47.0 ],
+					"patching_rect" : [ 650.0, 501.0, 153.0, 47.0 ],
 					"text" : "<= mute 0 = UNMUTE this voice \n1 = set busy state: FREE"
 				}
 
@@ -143,10 +143,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 301.5, 609.0, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 2"
 				}
 
@@ -158,10 +154,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 264.5, 609.0, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 1"
 				}
 
@@ -173,10 +165,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 124.0, 609.0, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -189,10 +177,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 122.0, 35.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
@@ -248,7 +232,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 138.297872340425528, 0.786666666666667, 0, 186.170212765957444, 0.426666666666667, 0, 292.553191489361723, 0.4, 0, 329.787234042553166, 0.893333333333333, 0, 521.27659574468089, 0.493333333333333, 0, 670.212765957446777, 0.906666666666667, 0, 824.468085106383, 0.426666666666667, 0, 888.297872340425556, 0.24, 0, 914.893617021276555, 0.88, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 117.021276595744681, 0.973333333333333, 0, 521.27659574468089, 0.493333333333333, 0, 797.872340425531888, 0.493333333333333, 0, 1000.0, 0.0, 0 ],
 					"id" : "obj-17",
 					"maxclass" : "function",
 					"numinlets" : 1,
