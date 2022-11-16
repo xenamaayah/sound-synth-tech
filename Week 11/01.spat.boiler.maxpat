@@ -40,17 +40,177 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "spectroscope~",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 755.0, 139.5, 300.0, 100.0 ]
+					"format" : 6,
+					"id" : "obj-41",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1118.0, 148.5, 50.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"id" : "obj-39",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1118.0, 182.0, 219.0, 35.0 ],
+					"text" : ";\rspat.oper.msg /source/[1-8]/aperture $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 625.94333627820015, 47.847453087568283, 42.0, 22.0 ],
+					"text" : "/dump"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "spat5.osc.view",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 618.305045127868652, 142.983050912618637, 128.0, 105.69491258263588 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 639.694872856140137, 120.983050912618637, 106.610172271728516, 20.0 ],
+					"text" : "<spot5.osc.view>"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "live.menu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 506.97183883190155, 148.5, 100.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "angular", "abap2d", "abip2d", "vbap", "vbip", "vbap2d", "vbap3d", "vbip2d", "vbip3d", "hoa2d", "hoa3d", "binaural", "knn", "spcap", "xy", "ab", "ms", "dbap2d", "aep2d", "aep3d", "stereopan", "dualbandvbp", "lbap" ],
+							"parameter_longname" : "live.menu[5]",
+							"parameter_mmax" : 22,
+							"parameter_shortname" : "live.menu",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "live.menu"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 508.47183883190155, 178.5, 97.0, 22.0 ],
+					"text" : "/panning/type $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 3,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"visible" : 1,
+						"boxes" : [  ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 486.0, 494.0, 137.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p send.spat.to.out.patch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "spectroscope~",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 779.40677809715271, 27.5, 300.0, 100.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.815686274509804, 0.552941176470588, 0.070588235294118, 1.0 ],
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -95,6 +255,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.890196078431372, 0.823529411764706, 0.258823529411765, 1.0 ],
@@ -428,7 +589,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 501.463363647460938, 81.5, 91.0, 22.0 ],
+					"patching_rect" : [ 501.305045127868652, 58.5, 91.0, 22.0 ],
 					"text" : "r spat.oper.msg"
 				}
 
@@ -443,7 +604,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 501.463363647460938, 105.5, 136.0, 22.0 ],
+					"patching_rect" : [ 501.305045127868652, 82.5, 136.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -1885,6 +2046,38 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.352941176470588, 0.698039215686274, 0.905882352941176, 0.34 ],
+					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-35",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 481.746673583984375, 476.75, 146.991524815559387, 52.5 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.352941176470588, 0.698039215686274, 0.905882352941176, 0.34 ],
+					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-34",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 492.97183883190155, 137.0, 121.991524815559387, 72.5 ],
+					"proportion" : 0.5
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -1999,8 +2192,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-2", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 510.963363647460938, 147.0, 39.499999999999943, 147.0 ],
+					"midpoints" : [ 510.805045127868652, 126.0, 39.499999999999943, 126.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -2030,6 +2230,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-46", 1 ]
 				}
 
 			}
@@ -2228,6 +2449,7 @@
 			"obj-105::obj-8" : [ "live.dial[3]", " ", 0 ],
 			"obj-29" : [ "live.drop", "live.drop", 0 ],
 			"obj-37" : [ "angular", "angular — speakers", 0 ],
+			"obj-46" : [ "live.menu[5]", "live.menu", 0 ],
 			"obj-5" : [ "live.text[20]", "live.text[20]", 0 ],
 			"obj-93" : [ "live.gain~[4]", "binaural — headphones", 0 ],
 			"parameterbanks" : 			{
@@ -2244,6 +2466,10 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "spat5.oper.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.osc.view.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -2266,7 +2492,7 @@
 			}
 , 			{
 				"name" : "z.ll3headsfig4.jpg",
-				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Week 11/spat.boiler.patches",
+				"bootpath" : "~/Desktop/Senior 2022-2023/Semester 1/Sound Synthesis Techniques/sound-synth-tech/Week 11",
 				"patcherrelativepath" : ".",
 				"type" : "JPEG",
 				"implicit" : 1
