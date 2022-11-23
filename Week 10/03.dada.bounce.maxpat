@@ -92,7 +92,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 77.279133332031279, 275.0, 82.0, 22.0 ],
+					"patching_rect" : [ 73.279133332031279, 237.0, 82.0, 22.0 ],
 					"text" : "s to pitctslider"
 				}
 
@@ -247,7 +247,7 @@
 					"numoutlets" : 5,
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
-					"patching_rect" : [ 654.0, 153.0, 300.0, 300.0 ],
+					"patching_rect" : [ 654.0, 146.0, 300.0, 300.0 ],
 					"versionnumber" : 10200
 				}
 
@@ -284,7 +284,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 459.453933324218724, 318.0, 54.687960328125001, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Stereo spread"
 				}
 
@@ -297,7 +296,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 401.10337142075889, 304.0, 58.539479007812531, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Grain pitch variation"
 				}
 
@@ -310,7 +308,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 342.752809517299056, 304.0, 60.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Grain pitch factor"
 				}
 
@@ -323,7 +320,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 279.408829353236683, 318.0, 66.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Grain size variation"
 				}
 
@@ -336,7 +332,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 228.207705546316959, 318.0, 45.687960328125001, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Grain size"
 				}
 
@@ -349,7 +344,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 161.279133332031279, 318.0, 67.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Grain rate variation"
 				}
 
@@ -362,7 +356,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 100.779133332031279, 318.0, 67.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Grain separation"
 				}
 

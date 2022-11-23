@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 630.0, 100.0, 846.0, 795.0 ],
+		"rect" : [ 1922.0, -221.0, 1245.0, 811.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -208,7 +208,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 514.666666984558105, 912.666683793067932, 415.0, 22.0 ],
+					"patching_rect" : [ 834.666666984558105, 537.666683793067932, 415.0, 22.0 ],
 					"style" : "default",
 					"text" : "res-transform 41.6 41.5 0.08 0.4 83.4 0.4 0.73 115. 0.3 5.8 125.18 0.14 0.93"
 				}
@@ -453,7 +453,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 292.0, 258.000001907348633, 25.0, 81.0 ],
+					"patching_rect" : [ 292.0, 255.5, 25.0, 81.0 ],
 					"setminmax" : [ 0.0, 2.0 ],
 					"setstyle" : 1,
 					"style" : "default"
@@ -640,8 +640,7 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 480.0, 154.0, 98.0, 22.0 ],
 					"text" : "SDIF-buffer louis"
 				}
@@ -1366,10 +1365,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "SDIF-buffer.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "SDIF-tuples.mxo",
 				"type" : "iLaX"
 			}
