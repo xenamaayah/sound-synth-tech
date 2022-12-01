@@ -102,12 +102,13 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.890196078431372, 0.862745098039216, 0.03921568627451, 1.0 ],
 					"id" : "obj-38",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 262.0, 715.0, 61.0, 22.0 ],
-					"text" : "send~ in1"
+					"patching_rect" : [ 262.0, 708.0, 110.0, 22.0 ],
+					"text" : "send~ text.sound.1"
 				}
 
 			}
@@ -484,7 +485,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ 148.5, 714.0, 271.5, 714.0 ],
+					"midpoints" : [ 148.5, 702.0, 271.5, 702.0 ],
 					"order" : 0,
 					"source" : [ "obj-27", 0 ]
 				}
